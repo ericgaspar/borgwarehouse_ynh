@@ -9,8 +9,8 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-secret=$(ynh_string_random --length=24)
-cron_key=$(ynh_string_random --length=24)
+secret=$(ynh_string_random --length=32 | base64)
+cron_key=$(ynh_string_random --length=32 | base64)
 
 #=================================================
 # INSTALL DEPENDENCIES
