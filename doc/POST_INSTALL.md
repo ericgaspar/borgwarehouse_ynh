@@ -1,1 +1,1 @@
-Default credentials are admin/admin
+Default credentials are `admin`/`admin`
