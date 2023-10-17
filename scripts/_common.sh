@@ -5,6 +5,7 @@
 #=================================================
 
 nodejs_version=18
+ssh_port=$(grep -P "Port\s+\d+" /etc/ssh/sshd_config | grep -P -o "\d+")
 
 #=================================================
 # PERSONAL HELPERS
