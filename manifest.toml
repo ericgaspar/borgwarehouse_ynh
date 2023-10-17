@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "borgwarehouse "
-name = "BorgWarehouse "
+id = "borgwarehouse"
+name = "BorgWarehouse"
 description.en = "WebUI for a BorgBackup's central repository server"
 description.fr = "WebUI pour BorgBackup"
 
